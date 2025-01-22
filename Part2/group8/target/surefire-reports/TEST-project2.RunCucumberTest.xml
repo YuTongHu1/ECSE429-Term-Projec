@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="project2.RunCucumberTest" time="2.883" tests="95" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\yunsh\Documents\ECSE429\group8\target\test-classes;C:\Users\yunsh\Documents\ECSE429\group8\target\classes;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\yunsh\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\yunsh\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\yunsh\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\yunsh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.1\cucumber-junit-platform-engine-7.11.1.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-suite\1.9.2\junit-platform-suite-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.2\junit-platform-suite-api-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.2\junit-platform-suite-engine-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.2\junit-platform-suite-commons-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\yunsh\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\yunsh\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\yunsh\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\yunsh\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\yunsh\AppData\Local\Temp\surefire13651473142610957688\surefirebooter-20240312214757584_3.jar C:\Users\yunsh\AppData\Local\Temp\surefire13651473142610957688 2024-03-12T21-47-57_069-jvmRun1 surefire-20240312214757584_1tmp surefire_0-20240312214757584_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\yunsh\Documents\ECSE429\group8\target\test-classes;C:\Users\yunsh\Documents\ECSE429\group8\target\classes;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\yunsh\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\yunsh\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\yunsh\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\yunsh\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\yunsh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yunsh\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.1\cucumber-junit-platform-engine-7.11.1.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-suite\1.9.2\junit-platform-suite-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.2\junit-platform-suite-api-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.2\junit-platform-suite-engine-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.2\junit-platform-suite-commons-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\yunsh\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\yunsh\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\yunsh\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\yunsh\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\yunsh\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\yunsh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\yunsh\Documents\ECSE429\group8"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\yunsh\AppData\Local\Temp\surefire13651473142610957688\surefirebooter-20240312214757584_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="yunsh"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\yunsh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\yunsh\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\Users\yunsh\Documents\ECSE429\group8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2023a\bin;C:\Program Files\nodejs\;C:\Users\yunsh\Downloads\apache-maven-3.9.6\bin;C:\Users\yunsh\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\yunsh\AppData\Local\Programs\Python\Python312\;C:\msys64\mingw64\bin;C:\Users\yunsh\AppData\Local\Microsoft\WindowsApps;C:\Users\yunsh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yunsh\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="User wants a list of categories" classname="User Interacting with categories" time="0.318">
+    <system-out><![CDATA[
+Scenario: User wants a list of categories &amp#27;[90m# project2/CategoryStories.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser asks for a list of categories&amp#27;[0m  &amp#27;[90m# project2.StepDefinitions.user_asks_for_a_list_of_todos()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+Response from Manager: {"categories":[{"id":"2","title":"Home","description":""},{"id":"1","title":"Office","description":""}]}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the list&amp#27;[0m         &amp#27;[90m# project2.StepDefinitions.managerSendsBackList()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants a list of categories" classname="User Interacting with categories" time="0.02">
+    <system-out><![CDATA[
+Scenario: User wants a list of categories &amp#27;[90m# project2/CategoryStories2.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser asks for a list of categories&amp#27;[0m  &amp#27;[90m# project2.StepDefinitions.user_asks_for_a_list_of_todos()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+Response from Manager: {"categories":[{"id":"2","title":"Home","description":""},{"id":"3","title":"Story 1","description":"Test 1"},{"id":"1","title":"Office","description":"","todos":[{"id":"3"}],"projects":[{"id":"2"}]},{"id":"5","title":"Story 2 - Alternative Fow","description":"Story 2 test"},{"id":"4","title":"Story 1","description":"Test 1"}]}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the list&amp#27;[0m         &amp#27;[90m# project2.StepDefinitions.managerSendsBackList()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a new category using JSON" classname="User Interacting with categories" time="0.078">
+    <system-out><![CDATA[
+Scenario: User adds a new category using JSON  &amp#27;[90m# project2/CategoryStories.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+Received JSON data:
+{
+    "title": "Story 1",
+    "description": "Test 1"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category with JSON:&amp#27;[0m    &amp#27;[90m# project2.StepDefinitions.userPostsNewCategoryWithJSON(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | title   | description |
+    | Story 1 | Test 1      |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedCategory()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a new category using JSON" classname="User Interacting with categories" time="0.015">
+    <system-out><![CDATA[
+Scenario: User adds a new category using JSON  &amp#27;[90m# project2/CategoryStories2.feature:75&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+Received JSON data:
+{
+    "title": "Story 1",
+    "description": "Test 1"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category with JSON:&amp#27;[0m    &amp#27;[90m# project2.StepDefinitions.userPostsNewCategoryWithJSON(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | title   | description |
+    | Story 1 | Test 1      |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedCategory()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a new category using XML" classname="User Interacting with categories" time="0.046">
+    <system-out><![CDATA[
+Scenario: User adds a new category using XML   &amp#27;[90m# project2/CategoryStories.feature:20&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+Received XML data:
+<category>
+    <description>Test 1</description>
+    <title>Story 1</title>
+</category>
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category with XML:&amp#27;[0m     &amp#27;[90m# project2.StepDefinitions.userPostsNewCategoryWithXML(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedCategory()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a new category using XML" classname="User Interacting with categories" time="0.02">
+    <system-out><![CDATA[
+Scenario: User adds a new category using XML   &amp#27;[90m# project2/CategoryStories2.feature:83&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+Received XML data:
+<category>
+    <description>Test 1</description>
+    <title>Story 1</title>
+</category>
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category with XML:&amp#27;[0m     &amp#27;[90m# project2.StepDefinitions.userPostsNewCategoryWithXML(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedCategory()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User tries to adds a new category using wrong formatted XML" classname="User Interacting with categories" time="0.033">
+    <system-out><![CDATA[
+Scenario: User tries to adds a new category using wrong formatted XML &amp#27;[90m# project2/CategoryStories.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+Received XML data:
+<category>
+    <description>Introduction to Computer Science</description>
+    <title>COMP250</title>
+    <id>2</id>
+</category>
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category with XML:&amp#27;[0m                            &amp#27;[90m# project2.StepDefinitions.userPostsNewCategoryWithXML(java.lang.String)&amp#27;[0m
+{"errorMessages":["Invalid Creation: Failed Validation: Not allowed to create with id"]}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager rejects to create new category because of wrong format&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Manager_rejects_to_create_new_category()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User tries to adds a new category using wrong formatted XML" classname="User Interacting with categories" time="0.018">
+    <system-out><![CDATA[
+Scenario: User tries to adds a new category using wrong formatted XML &amp#27;[90m# project2/CategoryStories2.feature:95&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+Received XML data:
+<category>
+    <description>Introduction to Computer Science</description>
+    <title>COMP250</title>
+    <id>2</id>
+</category>
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category with XML:&amp#27;[0m                            &amp#27;[90m# project2.StepDefinitions.userPostsNewCategoryWithXML(java.lang.String)&amp#27;[0m
+{"errorMessages":["Invalid Creation: Failed Validation: Not allowed to create with id"]}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager rejects to create new category because of wrong format&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Manager_rejects_to_create_new_category()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve a category by its ID" classname="User Interacting with categories" time="0.034">
+    <system-out><![CDATA[
+Scenario: Retrieve a category by its ID         &amp#27;[90m# project2/CategoryStories.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m            &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m        &amp#27;[90m# project2.StepDefinitions.User_retrieves_category_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Manager_sends_category_with_ID(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve a category by its ID" classname="User Interacting with categories" time="0.017">
+    <system-out><![CDATA[
+Scenario: Retrieve a category by its ID         &amp#27;[90m# project2/CategoryStories2.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m            &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m        &amp#27;[90m# project2.StepDefinitions.User_retrieves_category_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Manager_sends_category_with_ID(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Post a category and retrieve it by its returned ID" classname="User Interacting with categories" time="0.035">
+    <system-out><![CDATA[
+Scenario: Post a category and retrieve it by its returned ID &amp#27;[90m# project2/CategoryStories.feature:55&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                         &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.userPostsNewCategory()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category with an ID&amp#27;[0m    &amp#27;[90m# project2.StepDefinitions.managerSendsBackCatID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser retrieves the created category by its returned ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.userRetrievesCatByReturnedID()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the retrieved category&amp#27;[0m              &amp#27;[90m# project2.StepDefinitions.managerSendsRetrievedCat()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Post a category and retrieve it by its returned ID" classname="User Interacting with categories" time="0.018">
+    <system-out><![CDATA[
+Scenario: Post a category and retrieve it by its returned ID &amp#27;[90m# project2/CategoryStories2.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                         &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.userPostsNewCategory()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category with an ID&amp#27;[0m    &amp#27;[90m# project2.StepDefinitions.managerSendsBackCatID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser retrieves the created category by its returned ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.userRetrievesCatByReturnedID()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the retrieved category&amp#27;[0m              &amp#27;[90m# project2.StepDefinitions.managerSendsRetrievedCat()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve a category with a non-existing ID" classname="User Interacting with categories" time="0.03">
+    <system-out><![CDATA[
+Scenario: Retrieve a category with a non-existing ID &amp#27;[90m# project2/CategoryStories.feature:64&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                 &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1001&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.User_retrieves_category_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+{"errorMessages":["Could not find an instance with categories/1001"]}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message is included in the response&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.errorMessageInTheResponse()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve a category with a non-existing ID" classname="User Interacting with categories" time="0.022">
+    <system-out><![CDATA[
+Scenario: Retrieve a category with a non-existing ID &amp#27;[90m# project2/CategoryStories2.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                 &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1001&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.User_retrieves_category_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+{"errorMessages":["Could not find an instance with categories/1001"]}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message is included in the response&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.errorMessageInTheResponse()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create and delete a todo" classname="User Interacting with categories" time="0.036">
+    <system-out><![CDATA[
+Scenario: Create and delete a todo                        &amp#27;[90m# project2/CategoryStories.feature:75&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                      &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.userPostsNewCategory()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category with an ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCatID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the created category&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.userDeletesCreatedCategory()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe deleted category is not found&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.CategoryIsNotFound()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create and delete a todo" classname="User Interacting with categories" time="0.018">
+    <system-out><![CDATA[
+Scenario: Create and delete a todo                        &amp#27;[90m# project2/CategoryStories2.feature:142&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                      &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.userPostsNewCategory()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category with an ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCatID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the created category&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.userDeletesCreatedCategory()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe deleted category is not found&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.CategoryIsNotFound()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create and update and delete a category" classname="User Interacting with categories" time="0.057">
+    <system-out><![CDATA[
+Scenario: Create and update and delete a category         &amp#27;[90m# project2/CategoryStories.feature:84&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                      &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.userPostsNewCategory()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category with an ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCatID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser updates the category with PUT&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.User_updates_the_category_with_PUT()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the created category&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.userDeletesCreatedCategory()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe deleted category is not found&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.CategoryIsNotFound()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create and update and delete a category" classname="User Interacting with categories" time="0.018">
+    <system-out><![CDATA[
+Scenario: Create and update and delete a category         &amp#27;[90m# project2/CategoryStories2.feature:151&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                      &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new category&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.userPostsNewCategory()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category with an ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCatID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser updates the category with PUT&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.User_updates_the_category_with_PUT()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the created category&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.userDeletesCreatedCategory()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe deleted category is not found&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.CategoryIsNotFound()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Delete a category that does not exist" classname="User Interacting with categories" time="0.019">
+    <system-out><![CDATA[
+Scenario: Delete a category that does not exist     &amp#27;[90m# project2/CategoryStories.feature:95&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser tries to delete a non-existing category&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.DeleteNonExistingCategory()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m         &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Delete a category that does not exist" classname="User Interacting with categories" time="0.013">
+    <system-out><![CDATA[
+Scenario: Delete a category that does not exist     &amp#27;[90m# project2/CategoryStories2.feature:162&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser tries to delete a non-existing category&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.DeleteNonExistingCategory()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m         &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve todos related to a category" classname="User Interacting with categories" time="0.025">
+    <system-out><![CDATA[
+Scenario: Retrieve todos related to a category            &amp#27;[90m# project2/CategoryStories.feature:104&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                      &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todos related to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_categories_of_category_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+{"todos":[]}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the todos&amp#27;[0m                        &amp#27;[90m# project2.StepDefinitions.sends_back_the_categories()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve todos related to a category" classname="User Interacting with categories" time="0.019">
+    <system-out><![CDATA[
+Scenario: Retrieve todos related to a category                 &amp#27;[90m# project2/CategoryStories.feature:130&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todos related to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m100001&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_categories_of_category_with_ID(int)&amp#27;[0m
+!!! The Manager did not report a not found error !!!
+The response code is 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager should report a not found error&amp#27;[0m                 &amp#27;[90m# project2.StepDefinitions.Manager_expects_a_not_found_error()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve todos related to a category" classname="User Interacting with categories" time="0.016">
+    <system-out><![CDATA[
+Scenario: Retrieve todos related to a category            &amp#27;[90m# project2/CategoryStories2.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                      &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todos related to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_categories_of_category_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+{"todos":[{"doneStatus":"false","description":"Test 4","id":"3","title":"Story 4 - Alternative 2"}]}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the todos&amp#27;[0m                        &amp#27;[90m# project2.StepDefinitions.sends_back_the_categories()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve todos related to a category" classname="User Interacting with categories" time="0.019">
+    <system-out><![CDATA[
+Scenario: Retrieve todos related to a category                 &amp#27;[90m# project2/CategoryStories2.feature:67&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todos related to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m100001&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_categories_of_category_with_ID(int)&amp#27;[0m
+!!! The Manager did not report a not found error !!!
+The response code is 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager should report a not found error&amp#27;[0m                 &amp#27;[90m# project2.StepDefinitions.Manager_expects_a_not_found_error()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add todos to a categories using JSON" classname="User Interacting with categories" time="0.028">
+    <system-out><![CDATA[
+Scenario: Add todos to a categories using JSON                   &amp#27;[90m# project2/CategoryStories.feature:111&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds a todo with PUT JSON data to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Add_a_todo_to_category_with_PUT_ID(int)&amp#27;[0m
+405
+Error: PUT didn't work
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo with the ID&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.send_back_created_category_with_the_ID()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todos related to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m        &amp#27;[90m# project2.StepDefinitions.get_categories_of_category_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                                 &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+{"todos":[]}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the todos&amp#27;[0m                              &amp#27;[90m# project2.StepDefinitions.sends_back_the_categories()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add todos to a categories using JSON" classname="User Interacting with categories" time="0.023">
+    <system-out><![CDATA[
+Scenario: Add todos to a categories using JSON                    &amp#27;[90m# project2/CategoryStories.feature:120&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                              &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds a todo with POST JSON data to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Add_a_todo_to_category_with_POST_ID(int)&amp#27;[0m
+201
+{"doneStatus":"false","description":"Test 4","id":"3","title":"Story 4 - Alternative 2"}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo with the ID&amp#27;[0m            &amp#27;[90m# project2.StepDefinitions.send_back_created_category_with_the_ID()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todos related to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m         &amp#27;[90m# project2.StepDefinitions.get_categories_of_category_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                                  &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+{"todos":[{"doneStatus":"false","description":"Test 4","id":"3","title":"Story 4 - Alternative 2"}]}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the todos&amp#27;[0m                               &amp#27;[90m# project2.StepDefinitions.sends_back_the_categories()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add todos to a categories using JSON" classname="User Interacting with categories" time="0.018">
+    <system-out><![CDATA[
+Scenario: Add todos to a categories using JSON                   &amp#27;[90m# project2/CategoryStories2.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds a todo with PUT JSON data to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Add_a_todo_to_category_with_PUT_ID(int)&amp#27;[0m
+405
+Error: PUT didn't work
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo with the ID&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.send_back_created_category_with_the_ID()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todos related to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m        &amp#27;[90m# project2.StepDefinitions.get_categories_of_category_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                                 &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+{"todos":[{"doneStatus":"false","description":"Test 4","id":"3","title":"Story 4 - Alternative 2"}]}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the todos&amp#27;[0m                              &amp#27;[90m# project2.StepDefinitions.sends_back_the_categories()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add todos to a categories using JSON" classname="User Interacting with categories" time="0.022">
+    <system-out><![CDATA[
+Scenario: Add todos to a categories using JSON                    &amp#27;[90m# project2/CategoryStories2.feature:57&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                              &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds a todo with POST JSON data to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Add_a_todo_to_category_with_POST_ID(int)&amp#27;[0m
+201
+{"doneStatus":"false","description":"Test 4","id":"4","title":"Story 4 - Alternative 2"}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo with the ID&amp#27;[0m            &amp#27;[90m# project2.StepDefinitions.send_back_created_category_with_the_ID()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todos related to category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m         &amp#27;[90m# project2.StepDefinitions.get_categories_of_category_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                                  &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+{"todos":[{"doneStatus":"false","description":"Test 4","id":"3","title":"Story 4 - Alternative 2"},{"doneStatus":"false","description":"Test 4","id":"4","title":"Story 4 - Alternative 2"}]}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the todos&amp#27;[0m                               &amp#27;[90m# project2.StepDefinitions.sends_back_the_categories()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get headers for categories" classname="User Interacting with categories" time="0.021">
+    <system-out><![CDATA[
+Scenario: Get headers for categories                                   &amp#27;[90m# project2/CategoryStories.feature:140&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                   &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser requests headers for categories related projects with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_headers_categories_related_tasks(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                                       &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+{null=[HTTP/1.1 200 OK], Transfer-Encoding=[chunked], Server=[Jetty(9.4.z-SNAPSHOT)], Date=[Wed, 13 Mar 2024 01:48:00 GMT], Content-Type=[application/json]}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the headers for associated projects&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.send_headers_for_associated_project()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get headers for categories" classname="User Interacting with categories" time="0.014">
+    <system-out><![CDATA[
+Scenario: Get headers for categories                                   &amp#27;[90m# project2/CategoryStories2.feature:112&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                   &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser requests headers for categories related projects with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_headers_categories_related_tasks(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                                       &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+{null=[HTTP/1.1 200 OK], Transfer-Encoding=[chunked], Server=[Jetty(9.4.z-SNAPSHOT)], Date=[Wed, 13 Mar 2024 01:48:00 GMT], Content-Type=[application/json]}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the headers for associated projects&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.send_headers_for_associated_project()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Post a new project for a exisitng category of giving ID" classname="User Interacting with categories" time="0.042">
+    <system-out><![CDATA[
+Scenario: Post a new project for a exisitng category of giving ID &amp#27;[90m# project2/CategoryStories.feature:147&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                              &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new project for a category with XML:&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.User_posts_a_new_project_for_a_category_with_XML(java.lang.String)&amp#27;[0m
+{"active":"true","description":"Story 5 - Alternative Flow","id":"2","completed":"false","title":"Story 5"}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project for the category&amp#27;[0m    &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProjectForCategory()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Post a new project for a exisitng category of giving ID" classname="User Interacting with categories" time="0.02">
+    <system-out><![CDATA[
+Scenario: Post a new project for a exisitng category of giving ID &amp#27;[90m# project2/CategoryStories2.feature:119&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                              &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new project for a category with XML:&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.User_posts_a_new_project_for_a_category_with_XML(java.lang.String)&amp#27;[0m
+{"active":"true","description":"Story 5 - Alternative Flow","id":"3","completed":"false","title":"Story 5"}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project for the category&amp#27;[0m    &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProjectForCategory()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add project to a non-existing category using XML" classname="User Interacting with categories" time="0.03">
+    <system-out><![CDATA[
+Scenario: Add project to a non-existing category using XML            &amp#27;[90m# project2/CategoryStories.feature:161&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds a project to a non-existing category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m'10001'&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.add_project_to__non_existing_category(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add project to a non-existing category using XML" classname="User Interacting with categories" time="0.034">
+    <system-out><![CDATA[
+Scenario: Add project to a non-existing category using XML            &amp#27;[90m# project2/CategoryStories2.feature:133&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds a project to a non-existing category with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m'10001'&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.add_project_to__non_existing_category(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants a project with an existing id" classname="User Request Projects" time="0.02">
+    <system-out><![CDATA[
+Scenario: User wants a project with an existing id &amp#27;[90m# project2/ProjectsStories.feature:7&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m               &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser asks for a project of id &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m             &amp#27;[90m# project2.StepDefinitions.userAsksForProjectById(int)&amp#27;[0m
+Response from Manager: {"projects":[{"id":"1","title":"Office Work","completed":"false","active":"false","description":"","tasks":[{"id":"1"},{"id":"2"}]}]}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the project of id &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.managerSendsBackProjectOfId(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants a project with an existing id" classname="User Request Projects" time="0.009">
+    <system-out><![CDATA[
+Scenario: User wants a project with an existing id &amp#27;[90m# project2/ProjectsStories2.feature:124&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m               &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser asks for a project of id &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m             &amp#27;[90m# project2.StepDefinitions.userAsksForProjectById(int)&amp#27;[0m
+Response from Manager: {"projects":[{"id":"1","title":"Office Work","completed":"false","active":"false","description":"","tasks":[{"id":"1"},{"id":"2"}]}]}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the project of id &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.managerSendsBackProjectOfId(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants a project with a non-existing id" classname="User Request Projects" time="0.013">
+    <system-out><![CDATA[
+Scenario: User wants a project with a non-existing id                                    &amp#27;[90m# project2/ProjectsStories.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                                     &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser asks for a project of a non-existing id &amp#27;[0m&amp#27;[32m&amp#27;[1m23333&amp#27;[0m                                &amp#27;[90m# project2.StepDefinitions.userAsksForNonExsProjectId(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back an error msg: &amp#27;[0m&amp#27;[32m&amp#27;[1m"Could not find an instance with projects/23333"&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackInstanceNotFoundMsg(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants a project with a non-existing id" classname="User Request Projects" time="0.015">
+    <system-out><![CDATA[
+Scenario: User wants a project with a non-existing id                                    &amp#27;[90m# project2/ProjectsStories2.feature:7&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                                     &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser asks for a project of a non-existing id &amp#27;[0m&amp#27;[32m&amp#27;[1m23333&amp#27;[0m                                &amp#27;[90m# project2.StepDefinitions.userAsksForNonExsProjectId(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back an error msg: &amp#27;[0m&amp#27;[32m&amp#27;[1m"Could not find an instance with projects/23333"&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackInstanceNotFoundMsg(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants a project with invalid parameter" classname="User Request Projects" time="0.016">
+    <system-out><![CDATA[
+Scenario: User wants a project with invalid parameter &amp#27;[90m# project2/ProjectsStories.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser asks for a project without id&amp#27;[0m             &amp#27;[90m# project2.StepDefinitions.userAsksForProjectWithoutId()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back nothing&amp#27;[0m                     &amp#27;[90m# project2.StepDefinitions.managerSendsBackNull()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants a project with invalid parameter" classname="User Request Projects" time="0.015">
+    <system-out><![CDATA[
+Scenario: User wants a project with invalid parameter &amp#27;[90m# project2/ProjectsStories2.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser asks for a project without id&amp#27;[0m             &amp#27;[90m# project2.StepDefinitions.userAsksForProjectWithoutId()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back nothing&amp#27;[0m                     &amp#27;[90m# project2.StepDefinitions.managerSendsBackNull()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants to add a project with description using json" classname="User Request Projects" time="0.017">
+    <system-out><![CDATA[
+Scenario: User wants to add a project with description using json &amp#27;[90m# project2/ProjectsStories.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                              &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+{"title":"429 project","description":"asap"}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a project using json:&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.userPostsNewProjWithJSON(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | title       | description |
+    | 429 project | asap        |
+4
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m                     &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants to add a project with description using json" classname="User Request Projects" time="0.01">
+    <system-out><![CDATA[
+Scenario: User wants to add a project with description using json &amp#27;[90m# project2/ProjectsStories2.feature:130&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                              &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+{"title":"429 project","description":"asap"}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a project using json:&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.userPostsNewProjWithJSON(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | title       | description |
+    | 429 project | asap        |
+16
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m                     &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants to add a project with description using xml" classname="User Request Projects" time="0.013">
+    <system-out><![CDATA[
+Scenario: User wants to add a project with description using xml &amp#27;[90m# project2/ProjectsStories.feature:38&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new project with xml:&amp#27;[0m                        &amp#27;[90m# project2.StepDefinitions.userPostsNewProjWithXML(java.lang.String)&amp#27;[0m
+5
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m                    &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants to add a project with description using xml" classname="User Request Projects" time="0.011">
+    <system-out><![CDATA[
+Scenario: User wants to add a project with description using xml &amp#27;[90m# project2/ProjectsStories2.feature:24&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new project with xml:&amp#27;[0m                        &amp#27;[90m# project2.StepDefinitions.userPostsNewProjWithXML(java.lang.String)&amp#27;[0m
+11
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m                    &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants to add a project with wrong syntax xml" classname="User Request Projects" time="0.031">
+    <system-out><![CDATA[
+Scenario: User wants to add a project with wrong syntax xml                           &amp#27;[90m# project2/ProjectsStories.feature:50&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new project with xml:&amp#27;[0m                                             &amp#27;[90m# project2.StepDefinitions.userPostsNewProjWithXML(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back an error msg: &amp#27;[0m&amp#27;[32m&amp#27;[1m"Failed Validation: active should be BOOLEAN"&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackInstanceNotFoundMsg(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants to add a project with wrong syntax xml" classname="User Request Projects" time="0.036">
+    <system-out><![CDATA[
+Scenario: User wants to add a project with wrong syntax xml                           &amp#27;[90m# project2/ProjectsStories2.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new project with xml:&amp#27;[0m                                             &amp#27;[90m# project2.StepDefinitions.userPostsNewProjWithXML(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back an error msg: &amp#27;[0m&amp#27;[32m&amp#27;[1m"Failed Validation: active should be BOOLEAN"&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackInstanceNotFoundMsg(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a project and delete it" classname="User Request Projects" time="0.032">
+    <system-out><![CDATA[
+Scenario: User adds a project and delete it   &amp#27;[90m# project2/ProjectsStories.feature:69&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a project&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.userPostsNewProj()&amp#27;[0m
+7
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the project&amp#27;[0m                &amp#27;[90m# project2.StepDefinitions.userDeletesProj()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a project and delete it" classname="User Request Projects" time="0.013">
+    <system-out><![CDATA[
+Scenario: User adds a project and delete it   &amp#27;[90m# project2/ProjectsStories2.feature:55&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a project&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.userPostsNewProj()&amp#27;[0m
+13
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the project&amp#27;[0m                &amp#27;[90m# project2.StepDefinitions.userDeletesProj()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a projects, updates, and deletes it after" classname="User Request Projects" time="0.037">
+    <system-out><![CDATA[
+Scenario: User adds a projects, updates, and deletes it after &amp#27;[90m# project2/ProjectsStories.feature:77&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a project&amp#27;[0m                                   &amp#27;[90m# project2.StepDefinitions.userPostsNewProj()&amp#27;[0m
+8
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m                 &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser updates the project&amp#27;[0m                                &amp#27;[90m# project2.StepDefinitions.userPutsProj()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the project&amp#27;[0m                                &amp#27;[90m# project2.StepDefinitions.userDeletesProj()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a projects, updates, and deletes it after" classname="User Request Projects" time="0.032">
+    <system-out><![CDATA[
+Scenario: User adds a projects, updates, and deletes it after &amp#27;[90m# project2/ProjectsStories2.feature:116&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a project&amp#27;[0m                                   &amp#27;[90m# project2.StepDefinitions.userPostsNewProj()&amp#27;[0m
+15
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m                 &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser updates the project&amp#27;[0m                                &amp#27;[90m# project2.StepDefinitions.userPutsProj()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the project&amp#27;[0m                                &amp#27;[90m# project2.StepDefinitions.userDeletesProj()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants to delete non-existing project" classname="User Request Projects" time="0.01">
+    <system-out><![CDATA[
+Scenario: User wants to delete non-existing project                                        &amp#27;[90m# project2/ProjectsStories.feature:85&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                                       &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser deletes a project of id &amp#27;[0m&amp#27;[32m&amp#27;[1m32222&amp#27;[0m                                                  &amp#27;[90m# project2.StepDefinitions.userDeletesProjectById(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back an error msg: &amp#27;[0m&amp#27;[32m&amp#27;[1m"Could not find any instances with projects/32222"&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackInstanceNotFoundMsg(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants to delete non-existing project" classname="User Request Projects" time="0.011">
+    <system-out><![CDATA[
+Scenario: User wants to delete non-existing project                                        &amp#27;[90m# project2/ProjectsStories2.feature:62&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                                       &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser deletes a project of id &amp#27;[0m&amp#27;[32m&amp#27;[1m32222&amp#27;[0m                                                  &amp#27;[90m# project2.StepDefinitions.userDeletesProjectById(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back an error msg: &amp#27;[0m&amp#27;[32m&amp#27;[1m"Could not find any instances with projects/32222"&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackInstanceNotFoundMsg(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a project, adds a task and deletes the task" classname="User Request Projects" time="0.038">
+    <system-out><![CDATA[
+Scenario: User adds a project, adds a task and deletes the task &amp#27;[90m# project2/ProjectsStories.feature:97&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                            &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a project&amp#27;[0m                                     &amp#27;[90m# project2.StepDefinitions.userPostsNewProj()&amp#27;[0m
+9
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds a task named: &amp#27;[0m&amp#27;[32m&amp#27;[1m"task1"&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.userPostsTask(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created task&amp#27;[0m                      &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedTask()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a project, adds a task and deletes the task" classname="User Request Projects" time="0.032">
+    <system-out><![CDATA[
+Scenario: User adds a project, adds a task and deletes the task &amp#27;[90m# project2/ProjectsStories2.feature:138&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                            &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a project&amp#27;[0m                                     &amp#27;[90m# project2.StepDefinitions.userPostsNewProj()&amp#27;[0m
+17
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds a task named: &amp#27;[0m&amp#27;[32m&amp#27;[1m"task1"&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.userPostsTask(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created task&amp#27;[0m                      &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedTask()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a projects, adds two tasks and deletes the latest created task after" classname="User Request Projects" time="0.06">
+    <system-out><![CDATA[
+Scenario: User adds a projects, adds two tasks and deletes the latest created task after &amp#27;[90m# project2/ProjectsStories.feature:106&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                                     &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a project&amp#27;[0m                                                              &amp#27;[90m# project2.StepDefinitions.userPostsNewProj()&amp#27;[0m
+10
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m                                            &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds a task named: &amp#27;[0m&amp#27;[32m&amp#27;[1m"task1"&amp#27;[0m                                                    &amp#27;[90m# project2.StepDefinitions.userPostsTask(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created task&amp#27;[0m                                               &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedTask()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds a task named: &amp#27;[0m&amp#27;[32m&amp#27;[1m"task2"&amp#27;[0m                                                    &amp#27;[90m# project2.StepDefinitions.userPostsTask(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created task&amp#27;[0m                                               &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedTask()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes last task added&amp#27;[0m                                                       &amp#27;[90m# project2.StepDefinitions.userDeletesLastTask()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a projects, adds two tasks and deletes the latest created task after" classname="User Request Projects" time="0.058">
+    <system-out><![CDATA[
+Scenario: User adds a projects, adds two tasks and deletes the latest created task after &amp#27;[90m# project2/ProjectsStories2.feature:74&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                                     &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a project&amp#27;[0m                                                              &amp#27;[90m# project2.StepDefinitions.userPostsNewProj()&amp#27;[0m
+14
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project&amp#27;[0m                                            &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProject()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds a task named: &amp#27;[0m&amp#27;[32m&amp#27;[1m"task1"&amp#27;[0m                                                    &amp#27;[90m# project2.StepDefinitions.userPostsTask(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created task&amp#27;[0m                                               &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedTask()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds a task named: &amp#27;[0m&amp#27;[32m&amp#27;[1m"task2"&amp#27;[0m                                                    &amp#27;[90m# project2.StepDefinitions.userPostsTask(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created task&amp#27;[0m                                               &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedTask()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes last task added&amp#27;[0m                                                       &amp#27;[90m# project2.StepDefinitions.userDeletesLastTask()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants to delete non-existing task" classname="User Request Projects" time="0.016">
+    <system-out><![CDATA[
+Scenario: User wants to delete non-existing task                                                   &amp#27;[90m# project2/ProjectsStories.feature:117&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                                               &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser deletes a task of id &amp#27;[0m&amp#27;[32m&amp#27;[1m32222&amp#27;[0m&amp#27;[32m of project &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m and fail&amp#27;[0m                                       &amp#27;[90m# project2.StepDefinitions.userDeletesTaskById(int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back an error msg: &amp#27;[0m&amp#27;[32m&amp#27;[1m"Could not find any instances with projects/1/tasks/32222"&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackInstanceNotFoundMsg(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User wants to delete non-existing task" classname="User Request Projects" time="0.013">
+    <system-out><![CDATA[
+Scenario: User wants to delete non-existing task                                                   &amp#27;[90m# project2/ProjectsStories2.feature:109&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                                               &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser deletes a task of id &amp#27;[0m&amp#27;[32m&amp#27;[1m32222&amp#27;[0m&amp#27;[32m of project &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m and fail&amp#27;[0m                                       &amp#27;[90m# project2.StepDefinitions.userDeletesTaskById(int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back an error msg: &amp#27;[0m&amp#27;[32m&amp#27;[1m"Could not find any instances with projects/1/tasks/32222"&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackInstanceNotFoundMsg(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User gets header of projects" classname="User Request Projects" time="0.012">
+    <system-out><![CDATA[
+Scenario: User gets header of projects &amp#27;[90m# project2/ProjectsStories.feature:129&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m   &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser heads &amp#27;[0m&amp#27;[32m&amp#27;[1m"projects"&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.userHeadsProjects(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser requests successfully&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.userHeadsProjectsSuccess()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User gets header of projects" classname="User Request Projects" time="0.009">
+    <system-out><![CDATA[
+Scenario: User gets header of projects &amp#27;[90m# project2/ProjectsStories2.feature:91&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m   &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser heads &amp#27;[0m&amp#27;[32m&amp#27;[1m"projects"&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.userHeadsProjects(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser requests successfully&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.userHeadsProjectsSuccess()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User gets header of projects through /projects/1" classname="User Request Projects" time="0.012">
+    <system-out><![CDATA[
+Scenario: User gets header of projects through /projects/1 &amp#27;[90m# project2/ProjectsStories.feature:136&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                       &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser heads &amp#27;[0m&amp#27;[32m&amp#27;[1m"projects/1/tasks"&amp#27;[0m                       &amp#27;[90m# project2.StepDefinitions.userHeadsProjects(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser requests successfully&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.userHeadsProjectsSuccess()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User gets header of projects through /projects/1" classname="User Request Projects" time="0.009">
+    <system-out><![CDATA[
+Scenario: User gets header of projects through /projects/1 &amp#27;[90m# project2/ProjectsStories2.feature:98&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                       &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser heads &amp#27;[0m&amp#27;[32m&amp#27;[1m"projects/1/tasks"&amp#27;[0m                       &amp#27;[90m# project2.StepDefinitions.userHeadsProjects(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser requests successfully&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.userHeadsProjectsSuccess()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User gets header of projects through /projects/1/tasks/1" classname="User Request Projects" time="0.008">
+    <system-out><![CDATA[
+Scenario: User gets header of projects through /projects/1/tasks/1 &amp#27;[90m# project2/ProjectsStories.feature:142&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser heads &amp#27;[0m&amp#27;[32m&amp#27;[1m"projects/1/tasks/1"&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.userHeadsProjects(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser request fails&amp#27;[0m                                          &amp#27;[90m# project2.StepDefinitions.userHeadsProjectsFail()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User gets header of projects through /projects/1/tasks/1" classname="User Request Projects" time="0.006">
+    <system-out><![CDATA[
+Scenario: User gets header of projects through /projects/1/tasks/1 &amp#27;[90m# project2/ProjectsStories2.feature:104&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser heads &amp#27;[0m&amp#27;[32m&amp#27;[1m"projects/1/tasks/1"&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.userHeadsProjects(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser request fails&amp#27;[0m                                          &amp#27;[90m# project2.StepDefinitions.userHeadsProjectsFail()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a new todo using JSON" classname="User Interacting with Todos" time="0.01">
+    <system-out><![CDATA[
+Scenario: User adds a new todo using JSON  &amp#27;[90m# project2/TodosStories.feature:6&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m       &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+{"title":"Watch 409 recording","description":"watch thursday recording"}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo with JSON:&amp#27;[0m    &amp#27;[90m# project2.StepDefinitions.userPostsNewTodoWithJSON(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | title               | description              |
+    | Watch 409 recording | watch thursday recording |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedTodo()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a new todo using JSON" classname="User Interacting with Todos" time="0.018">
+    <system-out><![CDATA[
+Scenario: User adds a new todo using JSON  &amp#27;[90m# project2/TodosStories2.feature:117&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m       &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+{"title":"Watch 409 recording","description":"watch thursday recording"}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo with JSON:&amp#27;[0m    &amp#27;[90m# project2.StepDefinitions.userPostsNewTodoWithJSON(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | title               | description              |
+    | Watch 409 recording | watch thursday recording |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedTodo()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a new todo using XML" classname="User Interacting with Todos" time="0.021">
+    <system-out><![CDATA[
+Scenario: User adds a new todo using XML   &amp#27;[90m# project2/TodosStories.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m       &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo with XML:&amp#27;[0m     &amp#27;[90m# project2.StepDefinitions.userPostsNewTodoWithXML(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedTodo()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User adds a new todo using XML" classname="User Interacting with Todos" time="0.025">
+    <system-out><![CDATA[
+Scenario: User adds a new todo using XML   &amp#27;[90m# project2/TodosStories2.feature:90&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m       &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo with XML:&amp#27;[0m     &amp#27;[90m# project2.StepDefinitions.userPostsNewTodoWithXML(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedTodo()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User tries to adds a new todo using wrong formatted XML" classname="User Interacting with Todos" time="0.034">
+    <system-out><![CDATA[
+Scenario: User tries to adds a new todo using wrong formatted XML &amp#27;[90m# project2/TodosStories.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                              &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo with XML:&amp#27;[0m                            &amp#27;[90m# project2.StepDefinitions.userPostsNewTodoWithXML(java.lang.String)&amp#27;[0m
+{"errorMessages":["Invalid Creation: Failed Validation: Not allowed to create with id"]}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager rejects to create new todo because of wrong format&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Manager_rejects_to_create_new_todo()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User tries to adds a new todo using wrong formatted XML" classname="User Interacting with Todos" time="0.014">
+    <system-out><![CDATA[
+Scenario: User tries to adds a new todo using wrong formatted XML &amp#27;[90m# project2/TodosStories2.feature:103&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                              &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo with XML:&amp#27;[0m                            &amp#27;[90m# project2.StepDefinitions.userPostsNewTodoWithXML(java.lang.String)&amp#27;[0m
+{"errorMessages":["Invalid Creation: Failed Validation: Not allowed to create with id"]}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager rejects to create new todo because of wrong format&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Manager_rejects_to_create_new_todo()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve a todo by its ID" classname="User Interacting with Todos" time="0.01">
+    <system-out><![CDATA[
+Scenario: Retrieve a todo by its ID         &amp#27;[90m# project2/TodosStories.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m        &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m        &amp#27;[90m# project2.StepDefinitions.User_retrieves_todo_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m            &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Manager_sends_todo_with_ID(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve a todo by its ID" classname="User Interacting with Todos" time="0.014">
+    <system-out><![CDATA[
+Scenario: Retrieve a todo by its ID         &amp#27;[90m# project2/TodosStories2.feature:64&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m        &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m        &amp#27;[90m# project2.StepDefinitions.User_retrieves_todo_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m            &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Manager_sends_todo_with_ID(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Post a todo and retrieve it by its returned ID" classname="User Interacting with Todos" time="0.012">
+    <system-out><![CDATA[
+Scenario: Post a todo and retrieve it by its returned ID &amp#27;[90m# project2/TodosStories.feature:51&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                     &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.userPostsNewTodo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo with an ID&amp#27;[0m    &amp#27;[90m# project2.StepDefinitions.managerSendsBackID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser retrieves the created todo by its returned ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.userRetrievesTodoByReturnedID()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                         &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the retrieved todo&amp#27;[0m              &amp#27;[90m# project2.StepDefinitions.managerSendsRetrievedTodo()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Post a todo and retrieve it by its returned ID" classname="User Interacting with Todos" time="0.011">
+    <system-out><![CDATA[
+Scenario: Post a todo and retrieve it by its returned ID &amp#27;[90m# project2/TodosStories2.feature:78&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                     &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.userPostsNewTodo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo with an ID&amp#27;[0m    &amp#27;[90m# project2.StepDefinitions.managerSendsBackID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser retrieves the created todo by its returned ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.userRetrievesTodoByReturnedID()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                         &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the retrieved todo&amp#27;[0m              &amp#27;[90m# project2.StepDefinitions.managerSendsRetrievedTodo()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve a todo with a non-existing ID" classname="User Interacting with Todos" time="0.013">
+    <system-out><![CDATA[
+Scenario: Retrieve a todo with a non-existing ID &amp#27;[90m# project2/TodosStories.feature:60&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m             &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1001&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.User_retrieves_todo_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+{"errorMessages":["Could not find an instance with todos/1001"]}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message is included in the response&amp#27;[0m  &amp#27;[90m# project2.StepDefinitions.errorMessageInTheResponse()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve a todo with a non-existing ID" classname="User Interacting with Todos" time="0.01">
+    <system-out><![CDATA[
+Scenario: Retrieve a todo with a non-existing ID &amp#27;[90m# project2/TodosStories2.feature:71&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m             &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1001&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.User_retrieves_todo_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+{"errorMessages":["Could not find an instance with todos/1001"]}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message is included in the response&amp#27;[0m  &amp#27;[90m# project2.StepDefinitions.errorMessageInTheResponse()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create and delete a todo" classname="User Interacting with Todos" time="0.02">
+    <system-out><![CDATA[
+Scenario: Create and delete a todo                    &amp#27;[90m# project2/TodosStories.feature:70&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.userPostsNewTodo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo with an ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the created todo&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.userDeletesCreatedTodo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                      &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe deleted todo is not found&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.todoIsNotFound()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create and delete a todo" classname="User Interacting with Todos" time="0.013">
+    <system-out><![CDATA[
+Scenario: Create and delete a todo                    &amp#27;[90m# project2/TodosStories2.feature:128&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.userPostsNewTodo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo with an ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the created todo&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.userDeletesCreatedTodo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                      &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe deleted todo is not found&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.todoIsNotFound()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create and update and delete a todo" classname="User Interacting with Todos" time="0.017">
+    <system-out><![CDATA[
+Scenario: Create and update and delete a todo         &amp#27;[90m# project2/TodosStories.feature:79&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.userPostsNewTodo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo with an ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser updates the todo with PUT&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.User_updates_the_todo_with_PUT()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                       &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the created todo&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.userDeletesCreatedTodo()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                       &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe deleted todo is not found&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.todoIsNotFound()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create and update and delete a todo" classname="User Interacting with Todos" time="0.027">
+    <system-out><![CDATA[
+Scenario: Create and update and delete a todo         &amp#27;[90m# project2/TodosStories2.feature:137&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new todo&amp#27;[0m                          &amp#27;[90m# project2.StepDefinitions.userPostsNewTodo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created todo with an ID&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.managerSendsBackID()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser updates the todo with PUT&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.User_updates_the_todo_with_PUT()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                       &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes the created todo&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.userDeletesCreatedTodo()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                       &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe deleted todo is not found&amp#27;[0m                   &amp#27;[90m# project2.StepDefinitions.todoIsNotFound()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Delete a todo that does not exist" classname="User Interacting with Todos" time="0.015">
+    <system-out><![CDATA[
+Scenario: Delete a todo that does not exist     &amp#27;[90m# project2/TodosStories.feature:90&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m            &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser tries to delete a non-existing todo&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.DeleteNonExistingTodo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m     &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Delete a todo that does not exist" classname="User Interacting with Todos" time="0.012">
+    <system-out><![CDATA[
+Scenario: Delete a todo that does not exist     &amp#27;[90m# project2/TodosStories2.feature:148&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m            &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser tries to delete a non-existing todo&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.DeleteNonExistingTodo()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m     &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve categories related to a todo" classname="User Interacting with Todos" time="0.011">
+    <system-out><![CDATA[
+Scenario: Retrieve categories related to a todo            &amp#27;[90m# project2/TodosStories.feature:99&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                       &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves categories related to todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_categories_of_todo_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the categories for todos&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.sends_back_the_categories_for_todos()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve categories related to a todo" classname="User Interacting with Todos" time="0.014">
+    <system-out><![CDATA[
+Scenario: Retrieve categories related to a todo            &amp#27;[90m# project2/TodosStories2.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                       &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves categories related to todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_categories_of_todo_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the categories for todos&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.sends_back_the_categories_for_todos()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add categories to a todo using JSON" classname="User Interacting with Todos" time="0.009">
+    <system-out><![CDATA[
+Scenario: Add categories to a todo using JSON                &amp#27;[90m# project2/TodosStories.feature:106&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                         &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds a category with JSON data to todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Add_a_category_to_todo_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category with the ID&amp#27;[0m   &amp#27;[90m# project2.StepDefinitions.send_back_created_category_for_todos()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves categories related to todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m   &amp#27;[90m# project2.StepDefinitions.get_categories_of_todo_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the categories for todos&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.sends_back_the_categories_for_todos()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add categories to a todo using JSON" classname="User Interacting with Todos" time="0.017">
+    <system-out><![CDATA[
+Scenario: Add categories to a todo using JSON                &amp#27;[90m# project2/TodosStories2.feature:51&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                         &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds a category with JSON data to todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.Add_a_category_to_todo_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created category with the ID&amp#27;[0m   &amp#27;[90m# project2.StepDefinitions.send_back_created_category_for_todos()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves categories related to todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m   &amp#27;[90m# project2.StepDefinitions.get_categories_of_todo_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                             &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the categories for todos&amp#27;[0m           &amp#27;[90m# project2.StepDefinitions.sends_back_the_categories_for_todos()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve categories related to a non-existing todo" classname="User Interacting with Todos" time="0.013">
+    <system-out><![CDATA[
+Scenario: Retrieve categories related to a non-existing todo    &amp#27;[90m# project2/TodosStories.feature:116&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                            &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves categories related to todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m100001&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_categories_of_todo_with_ID(int)&amp#27;[0m
+!!! The Manager did not report a not found error !!!
+The response code is 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager should report a not found error&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.Manager_expects_a_not_found_error()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve categories related to a non-existing todo" classname="User Interacting with Todos" time="0.008">
+    <system-out><![CDATA[
+Scenario: Retrieve categories related to a non-existing todo    &amp#27;[90m# project2/TodosStories2.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                            &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser retrieves categories related to todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m100001&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_categories_of_todo_with_ID(int)&amp#27;[0m
+!!! The Manager did not report a not found error !!!
+The response code is 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager should report a not found error&amp#27;[0m                  &amp#27;[90m# project2.StepDefinitions.Manager_expects_a_not_found_error()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get headers for todos related tasks" classname="User Interacting with Todos" time="0.015">
+    <system-out><![CDATA[
+Scenario: Get headers for todos related tasks                  &amp#27;[90m# project2/TodosStories.feature:125&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser requests headers for todos related tasks with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_headers_todos_related_tasks(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                               &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the headers for associated tasks&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.send_headers_for_associated_tasks()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get headers for todos related tasks" classname="User Interacting with Todos" time="0.012">
+    <system-out><![CDATA[
+Scenario: Get headers for todos related tasks                  &amp#27;[90m# project2/TodosStories2.feature:7&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser requests headers for todos related tasks with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.get_headers_todos_related_tasks(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe request is successful&amp#27;[0m                               &amp#27;[90m# project2.StepDefinitions.check_request_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mManager sends back the headers for associated tasks&amp#27;[0m      &amp#27;[90m# project2.StepDefinitions.send_headers_for_associated_tasks()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Post a new tasks for a exisitng todo of giving ID" classname="User Interacting with Todos" time="0.025">
+    <system-out><![CDATA[
+Scenario: Post a new tasks for a exisitng todo of giving ID &amp#27;[90m# project2/TodosStories.feature:132&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                        &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new tasks for a todo with XML:&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.User_posts_a_new_tasks_for_a_todo_with_XML(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project for the todo&amp#27;[0m  &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProjectForTodo()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Post a new tasks for a exisitng todo of giving ID" classname="User Interacting with Todos" time="0.013">
+    <system-out><![CDATA[
+Scenario: Post a new tasks for a exisitng todo of giving ID &amp#27;[90m# project2/TodosStories2.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                        &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser posts a new tasks for a todo with XML:&amp#27;[0m          &amp#27;[90m# project2.StepDefinitions.User_posts_a_new_tasks_for_a_todo_with_XML(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back the created project for the todo&amp#27;[0m  &amp#27;[90m# project2.StepDefinitions.managerSendsBackCreatedProjectForTodo()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add project to a non-existing todo using XML" classname="User Interacting with Todos" time="0.029">
+    <system-out><![CDATA[
+Scenario: Add project to a non-existing todo using XML                &amp#27;[90m# project2/TodosStories.feature:146&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds a project to a non-existing todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m'random_id'&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.add_project_to__non_existing_todo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add project to a non-existing todo using XML" classname="User Interacting with Todos" time="0.021">
+    <system-out><![CDATA[
+Scenario: Add project to a non-existing todo using XML                &amp#27;[90m# project2/TodosStories2.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser connects to TodoManager&amp#27;[0m                                  &amp#27;[90m# project2.StepDefinitions.setUp()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds a project to a non-existing todo with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m'random_id'&amp#27;[0m &amp#27;[90m# project2.StepDefinitions.add_project_to__non_existing_todo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mManager sends back a not found error&amp#27;[0m                           &amp#27;[90m# project2.StepDefinitions.managerSendsBackNotFoundError()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Cucumber" classname="RunCucumberTest" time="0.381">
+    <error message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/java.net.Socket.connect(Socket.java:686)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:782)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at project2.StepDefinitions.tearDown(StepDefinitions.java:52)
+]]></error>
+    <system-out><![CDATA[      &amp#27;[31mjava.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/java.net.Socket.connect(Socket.java:686)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:782)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at project2.StepDefinitions.tearDown(StepDefinitions.java:52)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[&amp#27;[32m&amp#27;[1m┌───────────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Share your Cucumber Report with your team at &amp#27;[36m&amp#27;[1m&amp#27;[4mhttps://reports.cucumber.io&amp#27;[0m          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Activate publishing with one of the following:                                    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Environment variable:                            &amp#27;[36mCUCUMBER_PUBLISH_ENABLED&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m JUnit:                                           &amp#27;[36m@CucumberOptions&amp#27;[0m(publish = &amp#27;[36mtrue&amp#27;[0m) &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m More information at &amp#27;[36mhttps://cucumber.io/docs/cucumber/environment-variables/&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Disable this message with one of the following:                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m└───────────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+]]></system-err>
+  </testcase>
+</testsuite>
