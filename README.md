@@ -13,7 +13,7 @@ Developed and automated Gherkin-based story tests using Cucumber, defining accep
 ## Part C: Non-Functional Testing
 Performed dynamic and static analysis of the API, including performance testing with stress scenarios and SonarQube analysis to detect technical debt, code smells, and potential performance risks.
 
-### Graded Part 1: 100%
-### Graded Part 2: 95%
-### Graded Part 3: 100%
+### Graded Part A: 100%
+### Graded Part B: 95%
+### Graded Part C: 100%
 ### Graded Term Report: 97%
