@@ -1,7 +1,9 @@
 # ECSE429-Term-Project
 
 ## Context
-The project focused on validating and testing a REST API-based To-Do List Manager application through exploratory, story-based, and non-functional testing methodologies. It involved a systematic approach to uncover documented and undocumented API capabilities, automate user scenario testing with reusability in mind, and assess the API's performance and code quality using dynamic and static analysis tools. The goal was to ensure API robustness, identify areas for optimization, and provide actionable recommendations for improving performance, maintainability, and usability.
+The project focused on validating and testing a REST API-based To-Do List Manager application (thingifier) through exploratory, story-based, and non-functional testing methodologies. It involved a systematic approach to uncover documented and undocumented API capabilities, automate user scenario testing with reusability in mind, and assess the API's performance and code quality using dynamic and static analysis tools. The goal was to ensure API robustness, identify areas for optimization, and provide actionable recommendations for improving performance, maintainability, and usability.  
+
+
 
 ## Teammates
 Ying Fei Zang, Yun Shan Nong
